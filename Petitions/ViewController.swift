@@ -7,11 +7,29 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
 
+    var petitions = [String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        setNavBar()
+    }
+    
+    func setNavBar() {
+        title = "Petitions"
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        petitions.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Petition", for: indexPath)
+        cell.textLabel?.text = "Title"
+        cell.detailTextLabel?.text = "Subtitles"
+        return cell
     }
 
 

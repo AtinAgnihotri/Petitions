@@ -52,11 +52,11 @@
             </objects>
             <point key="canvasLocation" x="1492.753623188406" y="21.428571428571427"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="ta3-nl-ihe">
             <objects>
                 <navigationController storyboardIdentifier="NavController" automaticallyAdjustsScrollViewInsets="NO" id="g6g-pD-H1z" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="EKT-DV-Lj7"/>
+                    <tabBarItem key="tabBarItem" systemItem="mostRecent" id="EKT-DV-Lj7"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bgm-vx-Q2q">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

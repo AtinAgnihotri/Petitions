@@ -58,12 +58,19 @@ class ViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Petition", for: indexPath)
-        cell.textLabel?.text = petitions[indexPath.row].title
+        let petition = petitions[indexPath.row]
+        cell.textLabel?.text = petition.title
         cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 16.0)
         cell.textLabel?.numberOfLines = 2
         cell.textLabel?.contentMode = .scaleToFill
-        cell.detailTextLabel?.text = petitions[indexPath.row].allIssues
+        cell.detailTextLabel?.text = petition.allIssues
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detailVC = DetailViewController()
+        detailVC.petition = petitions[indexPath.row]
+        navigationController?.pushViewController(detailVC, animated: true)
     }
 
 

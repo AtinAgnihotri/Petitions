@@ -16,6 +16,7 @@
 		85B22553269F45F600A698A8 /* PetitionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B22552269F45F600A698A8 /* PetitionModel.swift */; };
 		85B22555269F46DF00A698A8 /* PetitionResultsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B22554269F46DF00A698A8 /* PetitionResultsModel.swift */; };
 		85B22557269F4A0400A698A8 /* IssuesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B22556269F4A0400A698A8 /* IssuesModel.swift */; };
+		85B22559269F4FB300A698A8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B22558269F4FB300A698A8 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		85B22552269F45F600A698A8 /* PetitionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionModel.swift; sourceTree = "<group>"; };
 		85B22554269F46DF00A698A8 /* PetitionResultsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionResultsModel.swift; sourceTree = "<group>"; };
 		85B22556269F4A0400A698A8 /* IssuesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesModel.swift; sourceTree = "<group>"; };
+		85B22558269F4FB300A698A8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		85B2253D269F2BF200A698A8 /* Petitions */ = {
 			isa = PBXGroup;
 			children = (
+				85B22558269F4FB300A698A8 /* DetailViewController.swift */,
 				85B2253E269F2BF200A698A8 /* AppDelegate.swift */,
 				85B22540269F2BF200A698A8 /* SceneDelegate.swift */,
 				85B22542269F2BF200A698A8 /* ViewController.swift */,
@@ -152,6 +155,7 @@
 				85B22557269F4A0400A698A8 /* IssuesModel.swift in Sources */,
 				85B22553269F45F600A698A8 /* PetitionModel.swift in Sources */,
 				85B22555269F46DF00A698A8 /* PetitionResultsModel.swift in Sources */,
+				85B22559269F4FB300A698A8 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
